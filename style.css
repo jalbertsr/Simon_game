@@ -1,0 +1,130 @@
+#prin{
+  font-family: 'Audiowide', cursive;
+  color: white;
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 25px;
+}
+#count{
+  font-family: 'Audiowide', cursive;
+  color: white;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+button1{
+  font-family: 'Audiowide', cursive;
+  text-align: center;
+  margin-left: 565px;
+  margin-top: 1em;
+  display: inline;
+}
+
+button2{
+  font-family: 'Audiowide', cursive;
+  text-align: center;
+  margin-left: 605px;
+  margin-top: 1em;
+  display: inline;
+}
+
+body {
+  color: black;
+  background-image: url('http://wallpaper-gallery.net/images/color-wallpaper/color-wallpaper-13.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+	-webkit-user-select: none;        
+	-moz-user-select: none; 
+	-ms-user-select: none; 
+	-o-user-select: none;
+	user-select: none;
+}
+
+ul {
+	list-style: none;
+}
+
+ul, li {
+	padding: 0;
+	margin: 0;
+}
+
+.simon {
+	margin-left: 485px;
+	margin-right: 3em;	
+	margin-top: 80px;
+	width: 302px;
+	height: 295px;
+	-webkit-border-radius: 150px 150px 150px 150px;
+	border-radius: 150px 150px 150px 150px;
+}
+
+.red, .blue, .yellow, .green {
+	height: 290px;
+	-webkit-border-radius: 150px 150px 150px 150px;
+	border-radius: 150px 150px 150px 150px;
+	position: absolute;
+	text-indent: 10000px;
+}
+
+.red:hover{
+  background-color: red;
+}
+
+.blue:hover{
+  background-color: blue;
+}
+
+.yellow:hover{
+  background-color: gold;
+}
+
+.green:hover {
+	background-color: GreenYellow;
+}
+
+.red {
+	background: #FF5643;
+	clip: rect(0px, 300px, 150px, 150px);
+	width: 296px;
+  border: 5px solid black
+}
+
+.blue {
+	background: dodgerblue;
+	clip: rect(0px, 150px, 150px, 0px);
+	width: 300px;
+  border: 5px solid black
+}
+
+.yellow {
+	background: yellow;
+	clip: rect(150px, 150px, 300px, 0px);
+	width: 300px;
+  border: 5px solid black
+}
+
+.green {
+	background: lightgreen;
+	clip: rect(150px,300px, 300px, 150px);
+	width: 296px;
+  border: 5px solid black
+}
+
+.redb{
+  background-color: red;
+}
+
+.blueb{
+  background-color: blue;
+}
+
+.yellowb{
+  background-color: gold;
+}
+
+.greenb{
+	background-color: GreenYellow;
+}

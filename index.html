@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>Simon Game</title>
+   <meta charset="utf-8">
+      <link rel="stylesheet" href="style.css" type="text/css">
+      <script src="jquery-3.2.1.min.js"></script>
+      <link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
+      <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
+  </head>
+  <body>
+    <h1 id="prin">Simon Game</h1>
+    <div class="simon">
+     <ul>
+       <li class="red" id="red1"><audio id="redClip" preload="auto">
+      <source src="https://s3.amazonaws.com/freecodecamp/simonSound1.mp3"></source>
+  </audio></li>
+       <li class="blue" id="blue2"><audio id="blueClip" preload="auto">
+      <source src="https://s3.amazonaws.com/freecodecamp/simonSound2.mp3"></source>
+  </audio></li>
+       <li class="yellow" id="yellow3"><audio id="yellowClip" preload="auto">
+      <source src="https://s3.amazonaws.com/freecodecamp/simonSound3.mp3"></source>
+  </audio></li>
+       <li class="green" id="green4"><audio id="greenClip" preload="auto">
+      <source src="https://s3.amazonaws.com/freecodecamp/simonSound4.mp3"></source>
+  </audio></li>
+     </ul>
+    </div>
+    <h2 id="count">Count: 0</h2>
+    <button1 id="mode" type="button" class="btn btn-default btn-sm"><span class="glyphicon glyphicon-ok"></span> Strict Mode Off</button1>
+  <button2 id="start" type="button" class="btn btn-default btn-sm">Start</button2>
+   <script type="text/javascript" src="main.js"></script>
+  </body>
+  <footer></footer>
+</html>
