@@ -1,4 +1,4 @@
-# Simon Game
+# ![Simon Game](https://jalbertsr.github.io/Simon_game/)
 The classical simon game with sound effects! This project was done to obtain the [Free Code Camp Certification.](https://www.freecodecamp.com/jaxalbert/front-end-certification) 
 
 Technologies used: HTML5, CSS3, Bootstrap, Javascript and JQuery. 
